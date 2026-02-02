@@ -1,4 +1,4 @@
-import { nunitoSemiBold } from "@/app/layout";
+import { nunitoSemiBold } from "@/fonts/fonts";
 
 interface Props {
   btnText: string;

@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import Image from "next/image";
 import { applications } from "@/constants";
-import { nunitoSansExtraBold } from "@/app/layout";
+import { nunitoSansExtraBold } from "@/fonts/fonts";
 
 function NextArrow({ onClick }: any) {
   return (

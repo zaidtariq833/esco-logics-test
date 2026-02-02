@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Buttons from "./shared/Buttons";
 import { bannerText } from "@/constants";
-import { nunitoBold, nunitoSansExtraBold } from "@/app/layout";
+import { nunitoBold, nunitoSansExtraBold } from "@/fonts/fonts";
 
 export default function Banner() {
   return (

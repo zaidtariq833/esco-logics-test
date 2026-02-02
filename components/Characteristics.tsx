@@ -1,5 +1,5 @@
-import { nunitoRegular, nunitoSansExtraBold } from "@/app/layout";
 import { charactersitics } from "@/constants";
+import { nunitoRegular, nunitoSansExtraBold } from "@/fonts/fonts";
 import { TypeCharacteristics } from "@/types";
 import Image from "next/image";
 

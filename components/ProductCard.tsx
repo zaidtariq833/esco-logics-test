@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Buttons from "./shared/Buttons";
 import { TypeProductCatalogue } from "@/types";
-import { nunitoBold, nunitoRegular, nunitoSansExtraBold } from "@/app/layout";
+import { nunitoBold, nunitoRegular, nunitoSansExtraBold } from "@/fonts/fonts";
 
 export default function ProductCard({
   image,

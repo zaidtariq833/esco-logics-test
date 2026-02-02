@@ -1,6 +1,6 @@
 import { socialIcons } from "@/constants";
 import InputField from "./shared/InputField";
-import { nunitoSansExtraBold } from "@/app/layout";
+import { nunitoSansExtraBold } from "@/fonts/fonts";
 
 export default function NewsLetter() {
   return (

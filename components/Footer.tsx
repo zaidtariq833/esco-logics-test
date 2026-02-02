@@ -1,7 +1,7 @@
 "use client";
-import { nunitoBold } from "@/app/layout";
 import NewsLetter from "./NewsLetter";
 import Links from "./Links";
+import { nunitoBold } from "@/fonts/fonts";
 
 export default function Footer() {
   return (

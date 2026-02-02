@@ -5,12 +5,12 @@ import InputField from "./shared/InputField";
 import PaginatedItems from "./Pagination";
 import { RootState } from "@/store/store";
 import { useDispatch, useSelector } from "react-redux";
-import { nunitoMedium, nunitoSansExtraBold } from "@/app/layout";
 import { useEffect, useState } from "react";
 import {
   setFilteredTabProducts,
   setPricingFilter,
 } from "@/slices/productSlice";
+import { nunitoMedium, nunitoSansExtraBold } from "@/fonts/fonts";
 
 export default function ProductsSection() {
   const dispatch = useDispatch();

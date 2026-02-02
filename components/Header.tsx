@@ -6,8 +6,8 @@ import { TypeNav } from "@/types";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import { MdArrowDropDown } from "react-icons/md";
-import { nunitoMedium } from "@/app/layout";
 import { FaPhoneAlt } from "react-icons/fa";
+import { nunitoMedium } from "@/fonts/fonts";
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);

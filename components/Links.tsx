@@ -1,8 +1,8 @@
-import { nunitoBold, nunitoSemiBold } from "@/app/layout";
 import Image from "next/image";
 import Buttons from "./shared/Buttons";
 import { ourServices, quickLinks, socialIcons } from "@/constants";
 import { FaPhoneVolume, FaVoicemail } from "react-icons/fa";
+import { nunitoBold, nunitoSemiBold } from "@/fonts/fonts";
 
 export default function Links() {
   return (

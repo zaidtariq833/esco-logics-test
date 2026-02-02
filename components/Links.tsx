@@ -50,7 +50,7 @@ export default function Links() {
             <div className="w-6 h-[2px] bg-yellow-400 rounded"></div>
             <div className="w-12 h-[2px] bg-white rounded"></div>
           </div>
-          <div className="flex flex-wrap gap-2 sm:gap-6 2xl:flex-col">
+          <div className="flex flex-wrap gap-2 sm:gap-6 xl:gap-0 2xl:flex-col">
             {quickLinks.map((link, index) => (
               <div key={index} className="flex gap-4 items-center mb-6">
                 <Image

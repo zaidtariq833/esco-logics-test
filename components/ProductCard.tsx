@@ -55,11 +55,11 @@ export default function ProductCard({
         >
           {price}
         </h4>
-        <div className="flex w-full justify-center items-center gap-2">
-          <div>
+        <div className="flex justify-center items-center gap-2 w-full max-w-full">
+          <div className="flex-shrink-0">
             <Buttons btnText="Add To Cart" dropShadow={false} />
           </div>
-          <div>
+          <div className="flex-shrink-0">
             <button
               className={`${nunitoRegular.className} text-[15px] px-[20px] sm:px-[30px] 2xl:text-[20px] whitespace-nowrap bg-slightGray py-[15px] rounded-[60px] text-black`}
             >

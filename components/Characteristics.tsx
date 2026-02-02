@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Characteristics() {
   return (
-    <section className="lg:px-[80px] 2xl:px-[121px] 2xl:pt-[101px] 2xl:pb-[106px] bg-cream">
+    <section className="lg:px-[80px] 2xl:px-[121px] 2xl:pt-[101px] xl:pb-[106px] bg-cream">
       <h2
         className={`${nunitoSansExtraBold.className} text-[35px] text-center py-[50px] 2xl:py-0 2xl:leading-[120%] 2xl:text-[53px]`}
       >

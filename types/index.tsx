@@ -1,3 +1,6 @@
+import { ActionCreatorWithPayload } from "@reduxjs/toolkit";
+import { RefObject } from "react";
+
 export type TypeCharacteristics = {
   icon: string;
   title: string;
@@ -5,16 +8,30 @@ export type TypeCharacteristics = {
 };
 
 export type TypeProductCatalogue = {
-  id: number;
+  id?: number;
   image: string;
   title: string;
   price: string;
-  featured: boolean;
+  category: string;
 };
 
-export interface CounterState {
-  id: number;
+export type TypeNav = {
+  navName: string;
+  dropdown?: string[];
+};
+
+export type ProductsSlice = {
+  products: TypeProductCatalogue[];
+};
+
+export type TypeInputField = {
+  placeholder: string;
   image: string;
-  title: string;
-  description: string;
-}
+  className: string;
+  dispatchFunc: () => any;
+};
+
+// export type ProductFilterType = {
+//   key: string;
+//   label: string;
+// };

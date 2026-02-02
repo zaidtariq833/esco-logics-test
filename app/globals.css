@@ -9,9 +9,13 @@
   --white: #ffffff;
   --golden: #ffa920;
   --black: #000000;
-  --gray: #021137;
+  --grayish: #021337;
   --cream: #fff5e0;
-  --light-gray: #8B8B8B;
+  --light-gray: #8b8b8b;
+  --lightest-gray: #3a3a3c;
+  --slight-gray: #f5f5f5;
+  --dark-purple: #2f2d42;
+  --dim-gray: #d9d9d9;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,4 +29,10 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.slick-track {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 10px !important;
 }

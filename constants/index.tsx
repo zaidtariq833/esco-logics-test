@@ -1,12 +1,36 @@
-import { TypeCharacteristics, TypeProductCatalogue } from "@/types";
+import { TypeCharacteristics, TypeNav, TypeProductCatalogue } from "@/types";
+import { IconType } from "react-icons";
+import { BsTwitterX } from "react-icons/bs";
+import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
-export const nav: string[] = [
-  "About Us",
-  "Contact Us",
-  "Products",
-  "Customized Solutions",
-  "Services",
-  "800-922-5120",
+export const nav: TypeNav[] = [
+  {
+    navName: "About Us",
+    dropdown: [
+      "Monthly Newsletter",
+      "CEC Product Categories",
+      "Careers",
+      "Our Staff",
+      "Profile",
+      "History",
+      "",
+    ],
+  },
+  {
+    navName: "Contact Us",
+  },
+  {
+    navName: "Products",
+  },
+  {
+    navName: "Customized Solutions",
+  },
+  {
+    navName: "Services",
+  },
+  {
+    navName: "800-922-5120",
+  },
 ];
 
 export const charactersitics: TypeCharacteristics[] = [
@@ -43,83 +67,246 @@ export const productsCatalogue: TypeProductCatalogue[] = [
     image: "/images/product-1.png",
     title: "36″ and 48″ Wide 5-S Storage Cabinets",
     price: "$1,523.66 - $1,544.67",
-    featured: true,
+    category: "Featured",
   },
   {
     id: 2,
     image: "/images/product-2.png",
     title: "36″ Small Parts Storage and Security Cabinets",
     price: "$1,933.93 - $2,180.76",
-    featured: true,
+    category: "Featured",
   },
   {
     id: 3,
     image: "/images/product-3.png",
     title: "Adjustable Spring Safety Gate",
     price: "$159.91 - $199.55",
-    featured: true,
+    category: "Popular",
   },
   {
     id: 4,
     image: "/images/product-4.png",
     title: "All Welded Heavy Duty Gear Lockers",
     price: "$534.61 - $1,172.86",
-    featured: true,
+    category: "Popular",
   },
   {
     id: 5,
     image: "/images/product-5.png",
     title: "All Welded Heavy Duty Storage Cabinet Lockers",
     price: "$843.47 - $1,178.00",
-    featured: false,
+    category: "Latest",
   },
   {
     id: 6,
     image: "/images/product-6.png",
     title: "Barriers",
     price: "$1,186.00 - $5,611.00",
-    featured: false,
+    category: "Latest",
   },
   {
     id: 7,
     image: "/images/product-7.png",
     title: "Bollard Cover",
     price: "$40.95 - $112.95",
-    featured: false,
+    category: "Popular",
   },
   {
     id: 8,
     image: "/images/product-8.png",
     title: "Bollard Covers",
     price: "$35.99 - $79.99",
-    featured: false,
+    category: "Latest",
   },
   {
     id: 9,
     image: "/images/product-9.png",
     title: "Bollards",
     price: "$93.10 - $267.93",
-    featured: false,
+    category: "Popular",
   },
   {
     id: 10,
     image: "/images/product-10.png",
     title: "Bolt Down Bollards",
     price: "$199.95 - $629.95",
-    featured: false,
+    category: "Featured",
   },
   {
     id: 11,
     image: "/images/product-1.png",
     title: "Bounce Back Bollard",
     price: "$159.91 - $199.95",
-    featured: false,
+    category: "Latest",
   },
   {
     id: 12,
     image: "/images/product-1.png",
     title: "Box Lockers",
     price: "$534.61 - $1,172.86",
-    featured: false,
+    category: "Popular",
   },
+  {
+    id: 13,
+    image: "/images/product-10.png",
+    title: "Bolt Down Bollards",
+    price: "$199.95 - $629.95",
+    category: "Popular",
+  },
+  {
+    id: 14,
+    image: "/images/product-1.png",
+    title: "Bounce Back Bollard",
+    price: "$159.91 - $199.95",
+    category: "Featured",
+  },
+  {
+    id: 15,
+    image: "/images/product-1.png",
+    title: "Box Lockers",
+    price: "$534.61 - $1,172.86",
+    category: "Latest",
+  },
+  {
+    id: 16,
+    image: "/images/product-10.png",
+    title: "Bolt Down Bollards",
+    price: "$199.95 - $629.95",
+    category: "Featured",
+  },
+  {
+    id: 17,
+    image: "/images/product-1.png",
+    title: "Bounce Back Bollard",
+    price: "$159.91 - $199.95",
+    category: "Popular",
+  },
+  {
+    id: 18,
+    image: "/images/product-1.png",
+    title: "Box Lockers",
+    price: "$534.61 - $1,172.86",
+    category: "Latest",
+  },
+  {
+    id: 19,
+    image: "/images/product-10.png",
+    title: "Bolt Down Bollards",
+    price: "$199.95 - $629.95",
+    category: "Featured",
+  },
+  {
+    id: 20,
+    image: "/images/product-1.png",
+    title: "Bounce Back Bollard",
+    price: "$159.91 - $199.95",
+    category: "Popular",
+  },
+  {
+    id: 21,
+    image: "/images/product-1.png",
+    title: "Box Lockers",
+    price: "$534.61 - $1,172.86",
+    category: "Latest",
+  },
+  {
+    id: 22,
+    image: "/images/product-10.png",
+    title: "Bolt Down Bollards",
+    price: "$199.95 - $629.95",
+    category: "Featured",
+  },
+  {
+    id: 23,
+    image: "/images/product-1.png",
+    title: "Bounce Back Bollard",
+    price: "$159.91 - $199.95",
+    category: "Latest",
+  },
+  {
+    id: 24,
+    image: "/images/product-1.png",
+    title: "Box Lockers",
+    price: "$534.61 - $1,172.86",
+    category: "Popular",
+  },
+  {
+    id: 25,
+    image: "/images/product-10.png",
+    title: "Bolt Down Bollards",
+    price: "$199.95 - $629.95",
+    category: "Featured",
+  },
+  {
+    id: 26,
+    image: "/images/product-1.png",
+    title: "Bounce Back Bollard",
+    price: "$159.91 - $199.95",
+    category: "Latest",
+  },
+  {
+    id: 27,
+    image: "/images/product-1.png",
+    title: "Box Lockers",
+    price: "$534.61 - $1,172.86",
+    category: "Popular",
+  },
+  {
+    id: 28,
+    image: "/images/product-10.png",
+    title: "Bolt Down Bollards",
+    price: "$199.95 - $629.95",
+    category: "Latest",
+  },
+  {
+    id: 29,
+    image: "/images/product-1.png",
+    title: "Bounce Back Bollard",
+    price: "$159.91 - $199.95",
+    category: "Featured",
+  },
+  {
+    id: 30,
+    image: "/images/product-1.png",
+    title: "Box Lockers",
+    price: "$534.61 - $1,172.86",
+    category: "Popular",
+  },
+];
+
+export const bannerText: string[] = [
+  "Industrial partitions and cages are physical barriers in industrial and commercial settings to create distinct, secure areas within a larger space. They are typically constructed from sturdy materials like wire mesh and steel, providing both security and organization. ",
+  "Industrial partitions and cages are durable structural solutions designed to divide, secure, and organize large industrial or commercial spaces. Built with heavy-gauge wire mesh, reinforced steel panels, and strong framing, they offer long-term reliability in demanding environments. These systems integrate seamlessly into existing facility layouts and can be expanded, relocated, or reconfigured as operational needs evolve. With multiple door options, locking systems, and customizable layouts, they provide flexible, secure, and efficient workspace management.",
+];
+
+export const applications: string[] = [
+  "/images/app-1.png",
+  "/images/app-2.png",
+  "/images/app-3.png",
+  "/images/app-1.png",
+  "/images/app-2.png",
+  "/images/app-3.png",
+];
+
+export const socialIcons: IconType[] = [
+  FaFacebookF,
+  BsTwitterX,
+  FaLinkedinIn,
+  FaYoutube,
+];
+
+export const quickLinks = [
+  "About Us",
+  "Products",
+  "Customized Solutions",
+  "Services",
+  "Contact Us",
+];
+
+export const ourServices = [
+  "Container Modifier",
+  "Container Repair & Maintenance",
+  "Dunnage Installation & Kitting",
+  "Dunnage Washing",
+  "Pallet Rack Repair",
 ];

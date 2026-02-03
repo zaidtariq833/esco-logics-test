@@ -36,7 +36,7 @@ export default function ProductsSection() {
   };
 
   return (
-    <section className="px-[80px] 2xl:px-[122px]">
+    <section className="px-[20px] 2xl:px-[122px]">
       <div className="flex flex-col items-center justify-between xl:flex-row 2xl:px-[15px]">
         <div className="w-full 2xl:w-auto px-2 lg:px-10 2xl:px-0">
           <ul className="flex flex-row flex-wrap justify-center gap-6 xl:justify-start 2xl:gap-8">
